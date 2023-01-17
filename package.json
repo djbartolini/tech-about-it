@@ -1,0 +1,22 @@
+{
+  "name": "tech-about-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "env:copy": "cp .env.EXAMPLE .env",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djbartolini/tech-about-it.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djbartolini/tech-about-it/issues"
+  },
+  "homepage": "https://github.com/djbartolini/tech-about-it#readme"
+}
