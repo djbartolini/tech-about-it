@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "env:copy": "cp .env.EXAMPLE .env",
-    "start": "node server.js"
+    "start": "node server.js",
+    "sync": "node db/sync",
+    "seed": "node seeds/seed",
+    "copy:env": "cp .env.EXAMPLE .env",
+    "watch": "nodemon server"
   },
   "repository": {
     "type": "git",
